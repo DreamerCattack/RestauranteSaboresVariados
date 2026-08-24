@@ -1,0 +1,83 @@
+/* Hero */
+
+.hero {
+  height: 70vh;
+  background-image: url("img/SaboresVariados.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.45);
+}
+
+.hero .container {
+  position: relative;
+  z-index: 1;
+}
+
+/* Botón de reserva */
+
+.btn-reserva {
+  background-color: #a0522d !important;
+  color: #fff !important;
+  border: 1px solid #a0522d !important;
+}
+
+.btn-reserva:hover {
+  background-color: #632207 !important;
+  color: #fff !important;
+  border-color: #632207 !important;
+}
+
+/* Tarjetas */
+
+.card {
+  border: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+.card-img-top {
+  height: 220px;
+  object-fit: cover;
+}
+
+/* Sección nosotros */
+
+.nosotros {
+  min-height: 50vh;
+  background-image: url("img/Nosotros.jpg");
+  background-size: cover;
+  background-position: center top;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.nosotros::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nosotros .container {
+  position: relative;
+  z-index: 1;
+}
+
+#menu {
+  background-color: #f3e5d8;
+}
+
+#contacto {
+  background-color: #f3e5d8;
+}
