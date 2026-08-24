@@ -26,4 +26,4 @@ Esta primera versión contiene la estructura y el diseño inicial de la página 
 - Implementar el sistema de reservas
 - Mejorar algunos detalles del diseño
 - Agregar más contenido al menú
-- Conectar el sistema con una base de datos
+- Algunas correcciones adicionales
